@@ -1,10 +1,10 @@
 // Update with your config settings.
-require("dotenv").load()
+// require("dotenv").load()
 module.exports = {
 
   development: {
     client: "pg",
-    connection: "postgresql:///trekreviews"
+    connection: "postgresql://localhost/trekreviews"
   },
 
   production: {
